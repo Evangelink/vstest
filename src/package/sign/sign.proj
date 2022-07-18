@@ -73,7 +73,7 @@
 
     <!-- Sign .Net 4.5 assemblies -->
     <ItemGroup>
-      <Fw45AssembliesToSign Include="$(ArtifactsFw45Directory)\Microsoft.TestPlatform.AdapterUtilities.dll" />
+      <Fw45AssembliesToSign Include="$(ArtifactsFw45Directory)$(TargetRuntime)\Microsoft.TestPlatform.AdapterUtilities.dll" />
       <Fw45AssembliesToSign Include="$(ArtifactsFw45Directory)$(TargetRuntime)\Microsoft.TestPlatform.CoreUtilities.dll" />
       <Fw45AssembliesToSign Include="$(ArtifactsFw45Directory)$(TargetRuntime)\Microsoft.TestPlatform.PlatformAbstractions.dll" />
       <Fw45AssembliesToSign Include="$(ArtifactsFw45Directory)$(TargetRuntime)\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
